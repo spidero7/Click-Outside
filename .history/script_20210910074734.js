@@ -11,7 +11,7 @@ function hendleCardButtonClick(event) {
     const desc = card.dataset.description;
     const name = card.querySelector('h2').textContent;
     // Populate the modal with new info
-    modalInner.innerHTML = `<img width="600" height="600" src="${imgSrc.replace('200', '600')}" alt="${name}"/> <p>${desc}</p>`;
+    modalInner.innerHTML = `<img width="600" heigsrc="${imgSrc.replace('200', '600')}" alt="${name}"/> <p>${desc}</p>`;
     // Show the modal
     modalOuter.classList.add('open');
 }
