@@ -1,0 +1,1 @@
+const cardButtons = document.querySelectorAll('.')

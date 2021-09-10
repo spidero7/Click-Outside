@@ -1,0 +1,21 @@
+body {
+    box-sizing: border-box;
+    pad
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+
+}
+
+.card img {
+    width: 100%;
+}
